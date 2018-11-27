@@ -22,7 +22,7 @@ while True: #循环轮询socket状态，等待访问
         else:
             str = '已收到' + msg
         connection.sendall(bytes(str, 'UTF-8'))
-        print("客户端"+msg)
+        print("客户端："+msg)
     else:
         break
 

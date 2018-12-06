@@ -6,10 +6,10 @@ from tkinter import scrolledtext
 import pymysql.cursors
 
 connect=pymysql.Connect(
-    host='localhost',
+    host='139.199.74.74',
     port=3306,
-    user='root',
-    passwd='mingzai',
+    user='python',
+    passwd='123456',
     db='python',
     charset='utf8'
 )
